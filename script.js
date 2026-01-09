@@ -10,5 +10,10 @@ function addTodo() {
         todos.push({ text: input.value, completed: false });
         input.value = "";
         saveTodos();
-        renderTodos();
+        //renderTodos();
+    }
+      function toggleComplete(index) {
+        todos[index].completed = !todos[index].completed;
+        saveTodos();
+        //renderTodos();
     }
