@@ -17,3 +17,9 @@ function addTodo() {
         saveTodos();
         //renderTodos();
     }
+
+    function deleteTodo(index) {
+        todos.splice(index, 1);
+        saveTodos();
+        //renderTodos();
+    }
