@@ -55,3 +55,9 @@ button {
 button:hover {
     background: rgb(37, 99, 235);
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
