@@ -94,3 +94,6 @@ li.completed span {
     cursor: pointer;
 }
 
+.delete:hover {
+    color: rgb(220, 38, 38);
+}
